@@ -20,11 +20,17 @@ print(y)
 # print(type(a))
 
 
-
+#Exercise 01
 x = 7
 y = 4.8
 z=3j
-
 b = int(y)
 print(b)
 print(type(b))
+
+#Exercise 02
+c = complex(x)
+print(c)
+print(type(c))
+
+
