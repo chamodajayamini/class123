@@ -10,4 +10,21 @@ print(type(var_3))
 x = 25e4 # 25*10^4
 print(type(x))
 print(x)
+y = -67.68e5
+print(y)
 
+#Convert one data type to another
+# x = 7  #integer
+# a = float(x) 
+# print(a)
+# print(type(a))
+
+
+
+x = 7
+y = 4.8
+z=3j
+
+b = int(y)
+print(b)
+print(type(b))
