@@ -6,7 +6,8 @@
 #Python lists are ordereed
 # Lists are allow duplicates
 # list can store different different data types
-studet_name= ["Samatha",100,True, "Chamoda","Isini","Rishi"]
+studet_name_1= ["Samatha",100,True, "Chamoda","Isini","Rishi"]
+studet_name_2= ["Rishi","Sandun"]
 print(studet_name)
 print(type(studet_name))
 # for i in studet_name:
@@ -35,6 +36,12 @@ print(studet_name)
 #Exersise
 studet_name[3:] =[200,300,400]
 print(studet_name)
-
 #Add element
+# studet_name.append("Sanjaya")
+# print(studet_name)
+#Add element location we want(Arbitary location)
+# studet_name.insert(2,"Sanjaya")
+# print(studet_name)
 
+studet_name.insert(0,"Sanjaya")
+print(studet_name)
