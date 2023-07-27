@@ -33,4 +33,7 @@ c = complex(x)
 print(c)
 print(type(c))
 
-
+#Exercise 02
+d = int(z)
+print(d)
+print(type(d))
