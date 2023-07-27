@@ -1,13 +1,12 @@
 #Python Collections (SIMILAR TO ARRAY)
-
 # LIST, TUPLE, SET, DICTIONARY
-
 #python Lists
 #Lists are used to store the multiple data in a single variable
 #use square brackets
 #Python lists are ordereed
-
-studet_name= ["Samatha","Chamoda", "Ishini","Rishi","sadun", "Samatha"]
+# Lists are allow duplicates
+# list can store different different data types
+studet_name= ["Samatha",100,True, "Chamoda","Isini","Rishi"]
 print(studet_name)
 print(type(studet_name))
 # for i in studet_name:
@@ -19,7 +18,23 @@ print(studet_name[2])
 print(studet_name[3])
 print(studet_name[-1])
 print(len(studet_name))   #Actual number of elements
+new_list = studet_name[1:4]
+print(new_list)
+#Exercise 01
+new_list_2 = studet_name[3:5]
+print(new_list_2)
+#Exercise 02
+new_list_3 = studet_name[:3] # 0,1,2 
+print(new_list_3)
+#Exercise 03
+new_list_4 = studet_name[2:] #2,3,4,5
+print(new_list_4)
+# Change Element in the array
+studet_name[1:3] =["Kalani","Vithushan"]
+print(studet_name)
+#Exersise
+studet_name[3:] =[200,300,400]
+print(studet_name)
 
-# Lists are allow duplicates
-
+#Add element
 
